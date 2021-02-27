@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap');
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Muli', sans-serif;
+}
+.nav_style
+{
+	background: #fff;
+	box-shadow: 0 10px 30px 0 rgba(138,155,165,0.15);
+
+}
+
+
+.navbar-brand
+{
+	width: 300px;
+	height: 90px;
+
+
+}
+.navbar-nav li a{
+	letter-spacing:2px;
+	text-transform: uppercase;;
+	font-size: 14px;
+	font-weight: 600;
+	color: #333;
+	position: relative;
+}
+.navbar-nav li a:before
+{
+	content: ' ';
+	position: absolute;
+	top:100%;
+	bottom: 50%;
+	width: 0%;
+	height: 3%;
+	background: #ff7230;
+	transition: all 0.3s linear;
+}
+
+.navbar-nav li a:hover:before
+{
+	width: 80%;
+}
+
+.navbar-nav li a:hover
+{
+	color: #ff7230 !important;
+}
+
+@media(max-width:998px)
+{
+	.navbar-nav
+	{
+		margin-top:50px  !important; 
+		text-align: center  !important; 
+	}
+
+	.navbar-nav li a:hover:before
+{
+	width: 0%;
+}
+
+}
+
+
+/* Header style css */
+
+
+.header_text
+{
+	color: #8c8c8c;
+	font-weight: 5px;
+}
+.header_text2
+{
+	font-size: 26px;
+	color: black;
+	font-style: bold;
+}
+/* About section */
+.about_sec
+{
+
+padding-top: 50px;
+}
+.main_title h1
+{
+	font-weight: 500;
+	font-size: 50px;
+	color: #000;
+	text-transform: capitalize;
+	position: relative;
+	text-align: right;
+	margin-right: 300px;
+
+
+}
+.about_text
+{
+	margin-top: -30px;
+}
+.about_text h1
+{
+	font-size: 33px;
+	color: #000;
+	margin-top: -20px;
+	margin-bottom: 25px;
+
+}
+
+
+/* our services */
+
+.ourservices
+{
+	padding: 50px 0px 70px 0px;
+
+}
+
+
+
+.services_div
+{
+	border-radius: #f6f6f6;
+	padding: 20px 10px 70px 10px;
+	margin-top: 50px;
+	transition: all 0.1s linear;
+	-webkit-transition: all 0.1s linear;
+	position: relative;
+	box-shadow: 0 10px 30px 0 rgba(138,155,165,0.15);
+	margin-top: -20px;
+
+
+}
+.services_div:hover
+{
+	background: :#ff;
+	box-shadow: 0 0 4px 1px grey;
+}
+
+.fa-star-o
+{
+	color: #fff;
+	position: absolute;
+	bottom: 1px;
+	left: 3px;
+}
+
+.services_div:hover .fa-star-o
+{
+	color: #ffeee6;
+}
+
+.Servicestext
+{
+	font-weight: 500;
+	font-size: 50px;
+	color: #000;
+	text-transform: capitalize;
+	position: relative;
+	text-align:center;
+}
+.Servicestext2
+{
+	text-align: center;
+}
+
+.fa-graduation-cap
+{
+	
+	float: right;
+	margin-right: 15px;
+}
+.fa-book
+{
+	float: right;
+	margin-right: 15px;
+}
+.fa-bed
+{
+	float: right;
+	margin-right: 15px;
+}
+
+.displayboth
+{
+	color:#130f40;
+}
+.services_div:hover .displayboth
+{
+	color: #f0932b;
+}
+.servicepartdiv 
+{
+
+
+  
+	
+}
